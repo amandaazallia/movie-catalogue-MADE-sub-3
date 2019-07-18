@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_menu_movies">Movies</string>
+    <string name="title_menu_tvshow">TV Show</string>
+
+    <string name="image_poster">Image Poster</string>
+    <string name="date_relealesed">date_released</string>
+    <!--<string name="user_score">87%</string>-->
+    <!--<string name="runtime">1h 45m</string>-->
+    <string name="star_icon">star_icon</string>
+    <string name="timer_icon">timer_icon</string>
+    <string name="title">Title</string>
+    <!--<string name="status_detail">Released</string>-->
+    <string name="first_line">first_line</string>
+    <string name="second_line">second_line</string>
+    <string name="languange">English</string>
+    <string name="detail_overview">Detail Overview</string>
+    <string name="change_language_settings">Language Configuration</string>
+    <string name="vote_average">Vote Average</string>
+
+    <string name="vote_count">Perhitungan Suara</string>
+</resources>

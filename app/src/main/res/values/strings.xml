@@ -1,0 +1,68 @@
+<resources>
+    <string name="title_home">Home</string>
+    <string name="app_name">MoviesCatalogue</string>
+
+    <string name="title_menu_movies">Movies</string>
+    <string name="title_menu_tvshow">TV Show</string>
+
+    <string name="image_poster">Image poster</string>
+    <string name="date_relealesed">date_relealesed</string>
+    <string name="star_icon">star_icon</string>
+    <string name="timer_icon">timer_icon</string>
+    <string name="title">Title</string>
+    <string name="first_line">first_line</string>
+    <string name="second_line">second_line</string>
+    <string name="languange">English</string>
+    <string name="detail_overview">Detail Overview</string>
+    <string name="change_language_settings">Language Configuration</string>
+
+
+    <string name="vote_average">Vote Average</string>
+    <string name="vote_count">Vote Count</string>
+</resources>
+
+
+<!--indo-->
+<!--<resources>-->
+<!--<string name="app_name">Katalog Film</string>-->
+<!--<string name="title_home">Beranda</string>-->
+
+<!--<string name="title_menu_movies">Film</string>-->
+<!--<string name="title_menu_tvshow">Acara TV</string>-->
+
+<!--<string name="title_activity_movie_detail">Deskripsi Film</string>-->
+<!--<string name="image_poster">Gambar Poster</string>-->
+<!--<string name="title">Judul</string>-->
+<!--<string name="status">Status</string>-->
+<!--<string name="title_budgets">Anggaran</string>-->
+<!--<string name="title_revenue">Pendapatan</string>-->
+
+<!--<string name="languange">Indonesia</string>-->
+<!--<string name="genres">Genre</string>-->
+<!--<string name="detail_overview">Ikhtisar Detail</string>-->
+<!--<string name="title_crew">Tim</string>-->
+<!--<string name="crew_detail">Kru Detail</string>-->
+<!--<string name="title_overview">Ikhtisar</string>-->
+
+<!--<string name="budget">$4,000,000,00</string>-->
+<!--<string name="revenue">$19,000,000,00</string>-->
+<!--<string name="third_line">third_line</string>-->
+<!--<string name="icon_language">icon_language</string>-->
+<!--<string name="date_relealesed">waktu_tayang</string>-->
+
+<!--<string name="star_icon">star_icon</string>-->
+<!--<string name="timer_icon">timer_icon</string>-->
+<!--<string name="icon_released_detail">icon_released_detail</string>-->
+<!--<string name="first_line">first_line</string>-->
+<!--<string name="second_line">second_line</string>-->
+<!--<string name="genre_detail">Keterangan Jenis</string>-->
+<!--<string name="change_language_settings">Konfigurasi Bahasa</string>-->
+
+<!--<string name="image_banner">Gambar Banner</string>-->
+<!--<string name="image_vote_average">image_vote_average</string>-->
+<!--<string name="title_vote_average">Suara Rata-rata</string>-->
+<!--<string name="image_vote_count">image_vote_count</string>-->
+<!--<string name="image_language">Image_language</string>-->
+<!--<string name="fourth_line">fourth line</string>-->
+<!--</resources>-->
+

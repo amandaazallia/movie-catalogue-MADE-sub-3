@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image_poster"
+            tools:src="@color/colorAccent" />
+        <LinearLayout
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="3dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Title movie" />
+            <TextView
+                android:id="@+id/tv_item_air_date"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="2dp"
+                android:text="@string/date_relealesed"
+                android:textSize="14sp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="16dp"
+            android:stretchColumns="*"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:orientation="vertical">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/star_icon"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_stars_pink_24dp" />
+
+                <TextView
+                    android:id="@+id/tv_item_vote_average"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="13dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/timer_icon"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_av_timer_pink_24dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tv_item_vote_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="13dp"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
