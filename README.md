@@ -34,7 +34,7 @@ Fitur yang harus ada pada aplikasi:
         * Aplikasi harus bisa menjaga data yang sudah dimuat ketika terjadi pergantian orientasi dari potrait ke landscape atau sebaliknya.
 
  
-### Authors
+### Author
 _Amanda Azallia_
 
 
